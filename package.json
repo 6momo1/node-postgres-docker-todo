@@ -1,7 +1,6 @@
 {
   "name": "node-postgres-docker-todo",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/6momo1/node-postgres-docker-todo.git",
   "author": "tomi <tomilui1221@gmail.com>",
   "license": "MIT",
@@ -16,8 +15,10 @@
     "@types/express": "^4.17.13",
     "@types/node": "^17.0.15"
   },
+  "main": "dist/src/app.js",
   "scripts": {
-    "build": "yarn tsc",
-    "start:dev": "node ./dist/src/app.js"
+    "build": "tsc",
+    "start:dev": "tsc && node dist/src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

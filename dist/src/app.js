@@ -11,7 +11,7 @@ const config_1 = require("./config");
 //   console.log(envs);
 //   // console.log(process.env.DB_PASSWORD);  
 // }
-console.log(`this is a ${config_1.PORT} environment.`);
+console.log(`this is a ${config_1.NODE_ENV} environment.`);
 const port = parseInt(config_1.PORT || "4000");
 const starter = new server_1.default().start(port).then((port) => {
     console.log(`Running on port ${port}`);

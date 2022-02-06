@@ -35,7 +35,7 @@ class Server {
                 console.log("[ERROR] Failed to connect to database.");
                 throw new Error(err);
             }
-            console.log(`Connected`);
+            console.log(`PG client connected.`);
         });
     }
     routeronfig() {
