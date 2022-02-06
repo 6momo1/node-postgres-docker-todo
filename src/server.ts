@@ -27,7 +27,7 @@ class Server {
 
         throw new Error(err);
       }
-      console.log(`Connected`);
+      console.log(`PG client connected.`);
     });
   }
 
