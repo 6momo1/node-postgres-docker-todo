@@ -8,7 +8,9 @@ run:
 ``` bash
 yarn # to install dependencies
 yarn build  # to build server 
-yarn run server # to run server
+yarn start_local  # to run server
 ```
 
 compiled js code is in `./dist`
+
+# Docker
